@@ -204,6 +204,11 @@ main {
   font-size: 16px;
 }
 
+.addToCart button:active{
+  transform: scale(0.5);
+  transition-duration: 0.5s;
+}
+
 #popular {
   width: 100%;
   box-sizing: border-box;
@@ -1135,7 +1140,7 @@ button:focus{
 
 
   .searchBar .searchBox {
-    width: 300px;
+    width: 200px;
     height: 35px;
     background-color: rgb(241, 241, 241);
     color: rgb(0, 0, 0);
@@ -1157,6 +1162,7 @@ button:focus{
 
   .searchButton {
     padding:10px;
+    height: 40px;
     background-color: rgb(224, 12, 12);
     color: black;
     border: none;
@@ -1220,6 +1226,10 @@ button:focus{
   .collection img {
     width: 70%;
   }
+  
+  .collection img:hover {
+    transform: scale(1.2);
+  }
 
   .collectionImage {
     width: 100%;
@@ -1237,7 +1247,7 @@ button:focus{
   }
 
   .collectionAddToCart {
-    width: 60%;
+    width: 80%;
     height: 35px;
     border: none;
     background: linear-gradient(90deg, rgb(133, 4, 4), rgb(250, 48, 48));
