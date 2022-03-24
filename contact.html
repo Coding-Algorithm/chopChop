@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css" />
-    <link rel="stylesheet" href="./assets/login.css" />
-    <title>Home | Chop chop</title>
+    <title>Contact | Chop chop</title>
   </head>
 
   <body>
@@ -53,29 +52,34 @@
       </nav>
     </header>
 
-    <main>
-      <h2>Sign Up</h2>
+    <main id="contactPageMain">
 
-      <div id="formContainer">
-        <form action="/database" method="post">
-          <label for="name" required="required">Full Name:</label>
-          <input type="text" placeholder="e.g: Amazing Adewole" />
-          <br />
-          <label for="name" required="required">Email:</label>
-          <input type="text" placeholder="e.g: amazing@gmail.com" />
-          <br />
-          <label for="name" required="required">Username:</label>
-          <input type="text" placeholder="e.g: amazing" />
-          <br />
-          <label for="name" required="required">Address:</label>
-          <input type="text" placeholder="e.g: 2, Adefeso Street" />
-          <br />
-          <label for="name" required="required">Password:</label>
-          <input type="password" placeholder="******" />
-          <br />
-          <button type="submit">Sign Up</button>
-        </form>
-      </div>
+        <section class="contact">
+            <div class="contactForm">
+                <h3>Contact Us</h3>
+                <form action="/database" method="post">
+                    <label for="name" required="required">Email:</label>
+                    <input type="text" placeholder="e.g: amazing@gmail.com" />
+                    <br />
+                    <label for="name" required="required">Fullname:</label>
+                    <input type="password" placeholder="e.g: Steven Amazing" />
+                    <br />
+                    <label required='required'>Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message">
+
+                    </textarea>
+                    <button type="submit">Send</button>
+                  </form>
+            </div>
+
+            <div class="contactDetails">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium illo temporibus non eos iste molestias eum cumque odio repellat nobis error officia natus, vitae rerum, mollitia doloribus omnis. Pariatur inventore architecto, dolor reprehenderit cum rerum?
+                </p>
+            </div>
+        </section>
+
+
     </main>
 
     <footer>
@@ -85,6 +89,5 @@
     </footer>
 
     <script src="./assets/app.js"></script>
-
   </body>
 </html>

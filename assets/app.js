@@ -1,5 +1,6 @@
 let harmburger = document.querySelector('.harmburger')
 let nav = document.querySelector('nav')
+let navLinks = document.querySelectorAll('nav a')
 
 
 harmburger.addEventListener('click', () => {
@@ -11,5 +12,10 @@ harmburger.addEventListener('click', () => {
         harmburger.style.transform = 'rotate(90deg)'
     }
 })
+
+navLinks.forEach(navLink, () => {addEventListener('click', ()=> {
+    nav.className = ''
+    harmburger.style.transform = 'rotate(-180deg)'
+})})
 
 console.log(nav)
