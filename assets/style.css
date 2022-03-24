@@ -464,7 +464,7 @@ main {
 }
 
 .collectionAddToCart {
-  width: 35%;
+  width: 45%;
   height: 35px;
   border: none;
   background: linear-gradient(90deg, rgb(133, 4, 4), rgb(250, 48, 48));
@@ -1156,7 +1156,7 @@ button:focus{
   }
 
   .searchButton {
-    padding: 10px;
+    padding:10px;
     background-color: rgb(224, 12, 12);
     color: black;
     border: none;
@@ -1237,7 +1237,7 @@ button:focus{
   }
 
   .collectionAddToCart {
-    width: 50%;
+    width: 60%;
     height: 35px;
     border: none;
     background: linear-gradient(90deg, rgb(133, 4, 4), rgb(250, 48, 48));
