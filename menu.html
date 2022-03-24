@@ -10,11 +10,18 @@
 
   <body>
     <header>
-        <div class="logo">
-            <h2>Logo</h2>
-        </div>
-        
-        <nav>
+      <div class="logo">
+        <h2>Logo</h2>
+      </div>
+
+      <span class="harmburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        <!-- <img src="" alt=""> -->
+      </span>
+
+      <nav>
         <ul>
           <li>
             <a href="/">Home</a>
@@ -46,144 +53,226 @@
     </header>
 
     <main class="menuPageMain">
-        <section class="menuPageCollectionButton">
-            <li>
-                <p>
-                    Burger
-                </p>
-            </li>
-            <li>
-                <p>
-                    Burger
-                </p>
-            </li>
-            <li>
-                <p>
-                    Burger
-                </p>
-            </li>
-            <li>
-                <p>
-                    Burger
-                </p>
-            </li>
-            <li>
-                <p>
-                    Burger
-                </p>
-            </li>
-            <li>
-                <p>
-                    Burger
-                </p>
-            </li>
-            <li>
-                <p>
-                    Burger
-                </p>
-            </li>
-            <li>
-                <p>
-                    Burger
-                </p>
-            </li>
-        </section>
+      <section class="search">
+        <div class="searchBar">
+          <input type="text" name="searchBox" class="searchBarTool searchBox" />
+          <select
+            name="restaurantFiler"
+            id="restaurantFiler"
+            class="searchBarTool restaurantFilter"
+          >
+            <option value="res1">res1</option>
+            <option value="res2">res2</option>
+            <option value="res3">res3</option>
+          </select>
+          <button class="searchBarTool searchButton">Search</button>
+        </div>
 
-        <section class="menuPageCollections">
-            <div class="collectionGroup">
-                <div class="collection">
-                    <div class="collectionImage">
-                        <img src="./assets/img/img1.jpg" alt="" srcset="">
-                    </div>
-                    <p class="collectionName">
-                        Cake
+        <!-- <div class="menuPageCollectionButton">
+                <li>
+                    <p>
+                        Burger
                     </p>
-                </div>
-                <div class="collection">
-                    <div class="collectionImage">
-                        <img src="./assets/img/img1.jpg" alt="" srcset="">
-                    </div>
-                    <p class="collectionName">
-                        Cake
+                </li>
+                <li>
+                    <p>
+                        Burger
                     </p>
-                </div>
-                <div class="collection">
-                    <div class="collectionImage">
-                        <img src="./assets/img/img1.jpg" alt="" srcset="">
-                    </div>
-                    <p class="collectionName">
-                        Cake
+                </li>
+                <li>
+                    <p>
+                        Burger
                     </p>
-                </div>
+                </li>
+                <li>
+                    <p>
+                        Burger
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Burger
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Burger
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Burger
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Burger
+                    </p>
+                </li>
+            </div> -->
+      </section>
+
+      <section class="menuPageCollections">
+        <div class="collectionGroup">
+          <div class="collection">
+            <div class="collectionImage">
+              <img src="./assets/img/img1.jpg" alt="" srcset="" />
             </div>
-
-            <div class="collectionGroup">
-                <div class="collection">
-                    <div class="collectionImage">
-                        <img src="./assets/img/img1.jpg" alt="" srcset="">
-                    </div>
-                    <p class="collectionName">
-                        Cake
-                    </p>
-                </div>
-                <div class="collection">
-                    <div class="collectionImage">
-                        <img src="./assets/img/img1.jpg" alt="" srcset="">
-                    </div>
-                    <p class="collectionName">
-                        Cake
-                    </p>
-                </div>
-                <div class="collection">
-                    <div class="collectionImage">
-                        <img src="./assets/img/img1.jpg" alt="" srcset="">
-                    </div>
-                    <p class="collectionName">
-                        Cake
-                    </p>
-                </div>
+            <p class="collectionName">Cake</p>
+            <button class="collectionAddToCart">Add To Cart</button>
+          </div>
+          <div class="collection">
+            <div class="collectionImage">
+              <img src="./assets/img/img1.jpg" alt="" srcset="" />
             </div>
-
-            <div class="collectionGroup">
-                <div class="collection">
-                    <div class="collectionImage">
-                        <img src="./assets/img/img1.jpg" alt="" srcset="">
-                    </div>
-                    <p class="collectionName">
-                        Cake
-                    </p>
-                </div>
-                <div class="collection">
-                    <div class="collectionImage">
-                        <img src="./assets/img/img1.jpg" alt="" srcset="">
-                    </div>
-                    <p class="collectionName">
-                        Cake
-                    </p>
-                </div>
-                <div class="collection">
-                    <div class="collectionImage">
-                        <img src="./assets/img/img1.jpg" alt="" srcset="">
-                    </div>
-                    <p class="collectionName">
-                        Cake
-                    </p>
-                </div>
+            <p class="collectionName">Cake</p>
+            <button class="collectionAddToCart">Add To Cart</button>
+          </div>
+          <div class="collection">
+            <div class="collectionImage">
+              <img src="./assets/img/img1.jpg" alt="" srcset="" />
             </div>
-        </section>
-
-
+            <p class="collectionName">Cake</p>
+            <button class="collectionAddToCart">Add To Cart</button>
+          </div>
+          <div class="collection">
+            <div class="collectionImage">
+              <img src="./assets/img/img1.jpg" alt="" srcset="" />
+            </div>
+            <p class="collectionName">Cake</p>
+            <button class="collectionAddToCart">Add To Cart</button>
+          </div>
+        </div>
+        <div class="collectionGroup">
+            <div class="collection">
+              <div class="collectionImage">
+                <img src="./assets/img/img1.jpg" alt="" srcset="" />
+              </div>
+              <p class="collectionName">Cake</p>
+              <button class="collectionAddToCart">Add To Cart</button>
+            </div>
+            <div class="collection">
+              <div class="collectionImage">
+                <img src="./assets/img/img1.jpg" alt="" srcset="" />
+              </div>
+              <p class="collectionName">Cake</p>
+              <button class="collectionAddToCart">Add To Cart</button>
+            </div>
+            <div class="collection">
+              <div class="collectionImage">
+                <img src="./assets/img/img1.jpg" alt="" srcset="" />
+              </div>
+              <p class="collectionName">Cake</p>
+              <button class="collectionAddToCart">Add To Cart</button>
+            </div>
+            <div class="collection">
+              <div class="collectionImage">
+                <img src="./assets/img/img1.jpg" alt="" srcset="" />
+              </div>
+              <p class="collectionName">Cake</p>
+              <button class="collectionAddToCart">Add To Cart</button>
+            </div>
+        </div>
+        <div class="collectionGroup">
+            <div class="collection">
+              <div class="collectionImage">
+                <img src="./assets/img/img1.jpg" alt="" srcset="" />
+              </div>
+              <p class="collectionName">Cake</p>
+              <button class="collectionAddToCart">Add To Cart</button>
+            </div>
+            <div class="collection">
+              <div class="collectionImage">
+                <img src="./assets/img/img1.jpg" alt="" srcset="" />
+              </div>
+              <p class="collectionName">Cake</p>
+              <button class="collectionAddToCart">Add To Cart</button>
+            </div>
+            <div class="collection">
+              <div class="collectionImage">
+                <img src="./assets/img/img1.jpg" alt="" srcset="" />
+              </div>
+              <p class="collectionName">Cake</p>
+              <button class="collectionAddToCart">Add To Cart</button>
+            </div>
+            <div class="collection">
+              <div class="collectionImage">
+                <img src="./assets/img/img1.jpg" alt="" srcset="" />
+              </div>
+              <p class="collectionName">Cake</p>
+              <button class="collectionAddToCart">Add To Cart</button>
+            </div>
+        </div>
+        <div class="collectionGroup">
+            <div class="collection">
+              <div class="collectionImage">
+                <img src="./assets/img/img1.jpg" alt="" srcset="" />
+              </div>
+              <p class="collectionName">Cake</p>
+              <button class="collectionAddToCart">Add To Cart</button>
+            </div>
+            <div class="collection">
+              <div class="collectionImage">
+                <img src="./assets/img/img1.jpg" alt="" srcset="" />
+              </div>
+              <p class="collectionName">Cake</p>
+              <button class="collectionAddToCart">Add To Cart</button>
+            </div>
+            <div class="collection">
+              <div class="collectionImage">
+                <img src="./assets/img/img1.jpg" alt="" srcset="" />
+              </div>
+              <p class="collectionName">Cake</p>
+              <button class="collectionAddToCart">Add To Cart</button>
+            </div>
+            <div class="collection">
+              <div class="collectionImage">
+                <img src="./assets/img/img1.jpg" alt="" srcset="" />
+              </div>
+              <p class="collectionName">Cake</p>
+              <button class="collectionAddToCart">Add To Cart</button>
+            </div>
+        </div>
+        <div class="collectionGroup">
+            <div class="collection">
+              <div class="collectionImage">
+                <img src="./assets/img/img1.jpg" alt="" srcset="" />
+              </div>
+              <p class="collectionName">Cake</p>
+              <button class="collectionAddToCart">Add To Cart</button>
+            </div>
+            <div class="collection">
+              <div class="collectionImage">
+                <img src="./assets/img/img1.jpg" alt="" srcset="" />
+              </div>
+              <p class="collectionName">Cake</p>
+              <button class="collectionAddToCart">Add To Cart</button>
+            </div>
+            <div class="collection">
+              <div class="collectionImage">
+                <img src="./assets/img/img1.jpg" alt="" srcset="" />
+              </div>
+              <p class="collectionName">Cake</p>
+              <button class="collectionAddToCart">Add To Cart</button>
+            </div>
+            <div class="collection">
+              <div class="collectionImage">
+                <img src="./assets/img/img1.jpg" alt="" srcset="" />
+              </div>
+              <p class="collectionName">Cake</p>
+              <button class="collectionAddToCart">Add To Cart</button>
+            </div>
+        </div>
+      </section>
     </main>
 
-
-
     <footer>
-        This is the footer
-  
-        <p><b>Chop Chop</b> - (c) Copyright - 2022</p>
-      </footer>
-  
-      <script src="./assets/style.css"></script>
-    </body>
-  </html>
-  
+      This is the footer
+
+      <p><b>Chop Chop</b> - (c) Copyright - 2022</p>
+    </footer>
+
+    <script src="./assets/app.js"></script>
+
+  </body>
+</html>
