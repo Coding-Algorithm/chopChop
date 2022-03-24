@@ -1517,3 +1517,79 @@ button:focus{
     margin: 20px 0;
   }
 }
+
+
+
+@media screen and (max-width: 400px) {
+  .menuItems li {
+    min-width: 75%;
+  }
+
+
+  .pItems li {
+    list-style: none;
+    width: 70%;
+    height: auto;
+    /* padding: 0 0px 10px 0px; */
+    margin: 20px 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: -2px 2px 10px rgb(224, 224, 224);
+  }
+  
+
+  .pItemImage {
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+  }
+
+  .pItemImage img {
+    width: 100%;
+  }
+
+  .pItemInfo {
+    width: 75%;
+    display: block;
+    margin: 20px 0;
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .pItemRating {
+    display: flex;
+    letter-spacing: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 139, 7);
+    justify-content: space-evenly;
+  }
+
+  .pAddToCartWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .pAddToCartWrapper .addToCart {
+    width: 85%;
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: none;
+    background: linear-gradient(90deg, rgb(133, 4, 4), rgb(250, 48, 48));
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+
+}
